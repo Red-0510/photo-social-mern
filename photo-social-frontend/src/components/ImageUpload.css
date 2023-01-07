@@ -1,0 +1,36 @@
+.imageUpload{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.imageUpload_progress{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.imageUpload_input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imageUpload_file{
+    margin-bottom: 10px;
+}
+
+.imageUpload_button{
+    border: none;
+    color: lightgray;
+    background-color: #6082a3;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.imageUpload_button:hover{
+    background-color: lightgray;
+    color:#6082a3;
+}
